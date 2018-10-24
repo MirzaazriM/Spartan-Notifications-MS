@@ -1,0 +1,13 @@
+# home
+root:
+    path: /
+    defaults:
+        resource: "landing"
+    methods: [GET, POST]
+    
+notifications:
+    path: /{resource}{slash}
+    requirements:
+        resource: "notifications"
+        slash: "[/]{0,1}"
+    methods: [GET, POST, PUT, DELETE]

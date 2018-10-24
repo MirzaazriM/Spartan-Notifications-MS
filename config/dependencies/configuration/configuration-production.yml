@@ -1,0 +1,22 @@
+parameters:
+
+        database.dsn: 'mysql:host=35.192.66.193;dbname=spartan_apps'
+
+        config:
+            mobile_url: 'staging.api.mobile.diamondappgroup.com'
+            apps_url: 'staging.api.apps.diamondappgroup.com'
+            exercises_url: 'staging.api.exercises.diamondappgroup.com'
+            auth_url: 'staging.api.auth.diamondappgroup.com'
+            packages_url: 'staging.api.packages.diamondappgroup.com'
+            system_url: 'staging.api.system.diamondappgroup.com'
+            tags_url: 'staging.api.tags.diamondappgroup.com'
+            workouts_url: 'staging.api.workouts.diamondappgroup.com'
+            notifications_url: 'staging.api.pushnotifications.diamondappgroup.com'
+            recepies_url: 'staging.api.receipt.diamondappgroup.com'
+            nutritionplans_url: 'staging.api.nutritionplans.diamondappgroup.com'
+            workoutplans_url: 'staging.api.workoutplans.diamondappgroup.com'
+            monolog_url: 'staging.api.monolog.diamondappgroup.com'
+            users_url: 'staging.api.user.diamondappgroup.com'
+            admin_url: 'staging.admin.diamondappgroup.com'
+            server_key: 'AAAAbrY7mN0:APA91bE-O-e94laROJ1P3aXNy47aRR0B8VuPm-lr5sC8Sx4STl1p4NDy1klB89YAzwgRde3PF2GXXI2JAz9ke0vdn1-a4COfgFs7pfLSsKkWQEMhFx5srcFKDvYoBKLLbtWMm17QxgWW'
+            fcm_url: 'https://fcm.googleapis.com/fcm/send'
